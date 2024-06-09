@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<!--RM_Mech_Vulture-->
+  <Operation Class="PatchOperationAdd">
+	<xpath>Defs/ThingDef[defName="RM_Mech_Vulture"]</xpath>
+	<value>
+		<comps>
+		</comps>
+	</value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+	<xpath>Defs/ThingDef[defName="RM_Mech_Vulture"]/comps</xpath>
+	<value>
+		<li Class="AnimalBehaviours.CompProperties_Floating">
+		</li>
+	</value>
+  </Operation>
+
+<!--VFE_Mech_Vulture-->
+<Operation Class="PatchOperationFindMod">
+  <mods>
+    <li>Vanilla Factions Expanded - Mechanoids</li>
+  </mods>
+  <match Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="VFE_Mech_Vulture"]</xpath>
+    <value>
+		<comps>
+		</comps>
+    </value>
+  </match>
+</Operation>
+
+<Operation Class="PatchOperationFindMod">
+  <mods>
+    <li>Vanilla Factions Expanded - Mechanoids</li>
+  </mods>
+  <match Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="VFE_Mech_Vulture"]/comps</xpath>
+    <value>
+		<li Class="AnimalBehaviours.CompProperties_Floating">
+		</li>
+    </value>
+  </match>
+</Operation>
+
+</Patch>

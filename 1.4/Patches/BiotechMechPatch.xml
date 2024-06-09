@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<!--Mech_Lifter-->
+  <Operation Class="PatchOperationAdd">
+	<xpath>Defs/ThingDef[defName="Mech_Lifter"]</xpath>
+	<value>
+		<comps>
+		</comps>
+	</value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+	<xpath>Defs/ThingDef[defName="Mech_Lifter"]/comps</xpath>
+	<value>
+		<li Class="AnimalBehaviours.CompProperties_Floating">
+		</li>
+	</value>
+  </Operation>
+
+<!--Mech_Constructoid-->
+  <Operation Class="PatchOperationAdd">
+	<xpath>Defs/ThingDef[defName="Mech_Constructoid"]</xpath>
+	<value>
+		<comps>
+		</comps>
+	</value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+	<xpath>Defs/ThingDef[defName="Mech_Constructoid"]/comps</xpath>
+	<value>
+		<li Class="AnimalBehaviours.CompProperties_Floating">
+		</li>
+	</value>
+  </Operation>
+
+<!--Mech_Fabricor-->
+  <Operation Class="PatchOperationAdd">
+	<xpath>Defs/ThingDef[defName="Mech_Fabricor"]</xpath>
+	<value>
+		<comps>
+		</comps>
+	</value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+	<xpath>Defs/ThingDef[defName="Mech_Fabricor"]/comps</xpath>
+	<value>
+		<li Class="AnimalBehaviours.CompProperties_Floating">
+		</li>
+	</value>
+  </Operation>
+
+<!--Mech_Agrihand-->
+  <Operation Class="PatchOperationAdd">
+	<xpath>Defs/ThingDef[defName="Mech_Agrihand"]</xpath>
+	<value>
+		<comps>
+		</comps>
+	</value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+	<xpath>Defs/ThingDef[defName="Mech_Agrihand"]/comps</xpath>
+	<value>
+		<li Class="AnimalBehaviours.CompProperties_Floating">
+		</li>
+	</value>
+  </Operation>
+
+<!--Mech_Cleansweeper-->
+  <Operation Class="PatchOperationAdd">
+	<xpath>Defs/ThingDef[defName="Mech_Cleansweeper"]</xpath>
+	<value>
+		<comps>
+		</comps>
+	</value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+	<xpath>Defs/ThingDef[defName="Mech_Cleansweeper"]/comps</xpath>
+	<value>
+		<li Class="AnimalBehaviours.CompProperties_Floating">
+		</li>
+	</value>
+  </Operation>
+
+<!--Mech_Paramedic-->
+  <Operation Class="PatchOperationAdd">
+	<xpath>Defs/ThingDef[defName="Mech_Paramedic"]</xpath>
+	<value>
+		<comps>
+		</comps>
+	</value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+	<xpath>Defs/ThingDef[defName="Mech_Paramedic"]/comps</xpath>
+	<value>
+		<li Class="AnimalBehaviours.CompProperties_Floating">
+		</li>
+	</value>
+  </Operation>
+
+<!--Mech_Tunneler-->
+  <Operation Class="PatchOperationAdd">
+	<xpath>Defs/ThingDef[defName="Mech_Tunneler"]</xpath>
+	<value>
+		<comps>
+		</comps>
+	</value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+	<xpath>Defs/ThingDef[defName="Mech_Tunneler"]/comps</xpath>
+	<value>
+		<li Class="AnimalBehaviours.CompProperties_Floating">
+		</li>
+	</value>
+  </Operation>
+
+
+</Patch>

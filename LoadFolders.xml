@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<loadFolders>
+    <v1.4>
+        <li>/</li>
+        <li>1.4</li>
+		<li IfModActive="sarg.alphamechs">AlphaMechs/1.4</li>
+		<li IfModActive="Bart.EM">ExcavatorMechanoid/1.4</li>
+		<li IfModActive="Slashandz.MiniMiner">Mini-Miner/1.4</li>
+		<li IfModActive="UltraEmailMan.MoreMechanitorMechs">MoreMechanitorMechs/1.4</li>
+		<li IfModActive="Panacea.POW.Militor">POWMilitor/1.4</li>
+		<li IfModActive="hlx.ReinforcedMechanoids2">ReinforcedMechanoid2/1.4</li>
+		<li IfModActive="Rimsenal.Spacer">Rimsenal-Spacer/1.4</li>
+		<li IfModActive="OskarPotocki.VFE.Mechanoid">VFEMechanoids/1.4</li>
+    </v1.4>
+</loadFolders>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<!--Mech_MiniMiner-->
+  <Operation Class="PatchOperationAdd">
+	<xpath>Defs/ThingDef[defName="Mech_MiniMiner"]</xpath>
+	<value>
+		<comps>
+		</comps>
+	</value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+	<xpath>Defs/ThingDef[defName="Mech_MiniMiner"]/comps</xpath>
+	<value>
+		<li Class="AnimalBehaviours.CompProperties_Floating">
+		</li>
+	</value>
+  </Operation>
+
+</Patch>

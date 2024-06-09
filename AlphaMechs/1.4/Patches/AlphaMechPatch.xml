@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<!--AM_Mech_MasterChef-->
+  <Operation Class="PatchOperationAdd">
+	<xpath>Defs/ThingDef[defName="AM_Mech_MasterChef"]</xpath>
+	<value>
+		<comps>
+		</comps>
+	</value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+	<xpath>Defs/ThingDef[defName="AM_Mech_MasterChef"]/comps</xpath>
+	<value>
+		<li Class="AnimalBehaviours.CompProperties_Floating">
+		</li>
+	</value>
+  </Operation>
+
+<!--AM_PristineStrider-->
+  <Operation Class="PatchOperationAdd">
+	<xpath>Defs/ThingDef[defName="AM_PristineStrider"]</xpath>
+	<value>
+		<comps>
+		</comps>
+	</value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+	<xpath>Defs/ThingDef[defName="AM_PristineStrider"]/comps</xpath>
+	<value>
+		<li Class="AnimalBehaviours.CompProperties_Floating">
+		</li>
+	</value>
+  </Operation>
+
+<!--AM_Mech_PristineAssembler-->
+  <Operation Class="PatchOperationAdd">
+	<xpath>Defs/ThingDef[defName="AM_Mech_PristineAssembler"]</xpath>
+	<value>
+		<comps>
+		</comps>
+	</value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+	<xpath>Defs/ThingDef[defName="AM_Mech_PristineAssembler"]/comps</xpath>
+	<value>
+		<li Class="AnimalBehaviours.CompProperties_Floating">
+		</li>
+	</value>
+  </Operation>
+
+<!--AM_Mech_PristineSlurrypede-->
+  <Operation Class="PatchOperationAdd">
+	<xpath>Defs/ThingDef[defName="AM_Mech_PristineSlurrypede"]</xpath>
+	<value>
+		<comps>
+		</comps>
+	</value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+	<xpath>Defs/ThingDef[defName="AM_Mech_PristineSlurrypede"]/comps</xpath>
+	<value>
+		<li Class="AnimalBehaviours.CompProperties_Floating">
+		</li>
+	</value>
+  </Operation>
+
+<!--AM_Mech_Angler-->
+<Operation Class="PatchOperationFindMod">
+  <mods>
+    <li>Vanilla Fishing Expanded</li>
+  </mods>
+  <match Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="AM_Mech_Angler"]</xpath>
+    <value>
+		<comps>
+		</comps>
+    </value>
+  </match>
+</Operation>
+
+<Operation Class="PatchOperationFindMod">
+  <mods>
+    <li>Vanilla Fishing Expanded</li>
+  </mods>
+  <match Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="AM_Mech_Angler"]/comps</xpath>
+    <value>
+		<li Class="AnimalBehaviours.CompProperties_Floating">
+		</li>
+    </value>
+  </match>
+</Operation>
+
+<Operation Class="PatchOperationFindMod">
+  <mods>
+    <li>Vanilla Factions Expanded - Mechanoids</li>
+  </mods>
+  <match Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="AM_Mech_Advanced_PristineSlurrypede_PlayerControlled"]/comps</xpath>
+    <value>
+		<li Class="AnimalBehaviours.CompProperties_Floating">
+		</li>
+    </value>
+  </match>
+</Operation>
+
+</Patch>

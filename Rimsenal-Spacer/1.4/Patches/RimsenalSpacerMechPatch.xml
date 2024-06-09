@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<!--Mech_Borer-->
+  <Operation Class="PatchOperationAdd">
+	<xpath>Defs/ThingDef[defName="Mech_Borer"]</xpath>
+	<value>
+		<comps>
+		</comps>
+	</value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+	<xpath>Defs/ThingDef[defName="Mech_Borer"]/comps</xpath>
+	<value>
+		<li Class="AnimalBehaviours.CompProperties_Floating">
+		</li>
+	</value>
+  </Operation>
+
+<!--Mech_Omniservant-->
+  <Operation Class="PatchOperationAdd">
+	<xpath>Defs/ThingDef[defName="Mech_Omniservant"]</xpath>
+	<value>
+		<comps>
+		</comps>
+	</value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+	<xpath>Defs/ThingDef[defName="Mech_Omniservant"]/comps</xpath>
+	<value>
+		<li Class="AnimalBehaviours.CompProperties_Floating">
+		</li>
+	</value>
+  </Operation>
+
+</Patch>

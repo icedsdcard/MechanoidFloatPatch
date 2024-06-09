@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<!--Mech_Gastromech-->
+  <Operation Class="PatchOperationAdd">
+	<xpath>Defs/ThingDef[defName="Mech_Gastromech"]</xpath>
+	<value>
+		<comps>
+		</comps>
+	</value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+	<xpath>Defs/ThingDef[defName="Mech_Gastromech"]/comps</xpath>
+	<value>
+		<li Class="AnimalBehaviours.CompProperties_Floating">
+		</li>
+	</value>
+  </Operation>
+
+<!--Mech_Decorator-->
+  <Operation Class="PatchOperationAdd">
+	<xpath>Defs/ThingDef[defName="Mech_Decorator"]</xpath>
+	<value>
+		<comps>
+		</comps>
+	</value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+	<xpath>Defs/ThingDef[defName="Mech_Decorator"]/comps</xpath>
+	<value>
+		<li Class="AnimalBehaviours.CompProperties_Floating">
+		</li>
+	</value>
+  </Operation>
+
+<!--Mech_Scavoid-->
+  <Operation Class="PatchOperationAdd">
+	<xpath>Defs/ThingDef[defName="Mech_Scavoid"]</xpath>
+	<value>
+		<comps>
+		</comps>
+	</value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+	<xpath>Defs/ThingDef[defName="Mech_Scavoid"]/comps</xpath>
+	<value>
+		<li Class="AnimalBehaviours.CompProperties_Floating">
+		</li>
+	</value>
+  </Operation>
+
+</Patch>
